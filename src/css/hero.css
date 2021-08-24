@@ -1,0 +1,39 @@
+
+.hero {
+    padding-top: 15rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.desc {
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+hr {
+    color: white;
+    border: 2px solid white;
+    margin-left: 0;
+    animation-name: line;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.23, .8, 0.320, 1);
+}
+
+@keyframes line {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+
+.projectarrow {
+    margin-top: 21rem;
+    font-weight: 500;
+}
